@@ -2,15 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: $purple-gradient;
-  width: 28%;
   margin: 10px auto;
-  color: white;
-  border-radius: 4px;
 }
 
 .desserts-p {
-  background: $gray-gradient;
+  background: $sky-gradient;
   border-radius: 5px 5px 5px 5px;
   display: flex;
   justify-content: space-between;
@@ -18,10 +14,11 @@
   margin: 4px;
   padding: 8px;
   color: black;
+  border: 1px black solid;
 }
 
 .desserts-p:hover {
-  background: $purple-gradient;
+  background: $gray-gradient;
   color: white;
 }
 

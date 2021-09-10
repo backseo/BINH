@@ -8,11 +8,10 @@
 
 
 html body {
-background: linear-gradient(165deg,
-  rgba(192,192,192,0.5) 0%,
-  rgba(128,128,128,1) 100%);
-margin: 0;
-box-sizing: border-box;
+  background-image: url("../images/fond-3.jpg");
+  background-repeat: repeat;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {

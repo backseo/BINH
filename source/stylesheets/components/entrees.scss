@@ -2,17 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: $yellow-gradient;
-  width: 25%;
   margin: 10px auto;
-  height: 70px;
-  border-radius: 4px;
-  color: white;
-}
-
-.main-title {
-  text-align: center;
-  white-space: nowrap;
 }
 
 .main-title h1 {
@@ -21,17 +11,18 @@
 }
 
 .entrees-e {
-  background: $gray-gradient;
+  background: $sky-gradient;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 4px;
   padding: 8px;
+  border: 1px black solid;
 }
 
 .entrees-e:hover {
-  background: $yellow-gradient;
+  background: $gray-gradient;
   color: white;
 }
 

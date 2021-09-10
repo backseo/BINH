@@ -8,6 +8,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 text-align: center;
+box-shadow: 1px 1px 2px 1px black;
 }
 .banner-content h1 {
   font-size: 50px;
@@ -15,7 +16,7 @@ text-align: center;
   color: rgba(255,255,255,0.9);
 }
 
-.banner-content p {
+.banner-content h5 {
   color: white;
   font-size: 24px;
   font-weight: bold;
