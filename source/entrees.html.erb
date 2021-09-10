@@ -1,18 +1,17 @@
 <div class="nav-offset-top"></div>
-<div class="main-titlebox-e">
+<div class="main-titlebox-e" data-aos="flip-up">
     <img src="../images/BINH-Title_e.jpg" alt="Nos entrées" width="300px">
 </div>
 <div class="container">
   <% data.entrees.each do |entree| %>
-  <div class="entrees-e">
-    <div class="entrees-description">
-      <h4><%= entree.name %></h4>
+    <div class="entrees-e">
+      <div class="entrees-description">
+        <h4><%= entree.name %></h4>
+      </div>
+      <img src="<%= entree.img_link %>" alt="" class='entrees-image rounded'>
+      <div class="entrees-prix">
+        <h4><%= entree.prix %></h4>
+      </div>
     </div>
-    <img src="<%= entree.img_link %>" alt="" class='entrees-image rounded'>
-    <div class="entrees-prix">
-      <h4><%= entree.prix %></h4>
-    </div>
-  </div>
-<% end %>
-
+  <% end %>
 </div>

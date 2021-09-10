@@ -1,0 +1,74 @@
+.cdrfbox-contact {
+  position: relative;
+  display: block;
+  margin: 40px auto;
+  width: 90%;
+  min-height: 400px;
+  padding: 4px;
+  border-radius: 4px;
+  background: $sky-gradient;
+}
+
+.action {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 20px 20px;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 2px;
+  background: rgba(#5C636A, 0.8);
+  font-size: 14px;
+}
+
+.stylised {
+  margin: 10px auto;
+  border-radius: 4px;
+  height: auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.form-group {
+  text-decoration: none;
+  list-style: none;
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+}
+
+.form-group input {
+  font-size: 14px;
+  font-weight: 300;
+  color: #f28e37;
+}
+
+
+#contact-btn {
+  color: white;
+  border: 1px white solid;
+}
+
+#contact-btn:hover {
+  color: black;
+  border: 1px white solid;
+  transition: .5s ease;
+}
+
+/*format tablettes------------------------------------------------*/
+@media screen and (max-width: 991.98px) {
+  .action h2 {
+    transform: scale(0.8);
+  }
+}
+
+/* Format téléphone ------------------------------------------------*/
+@media screen and (max-width: 767.98px) {
+  .action h2 {
+    transform: scale(0.6);
+    white-space:nowrap;
+  }
+}

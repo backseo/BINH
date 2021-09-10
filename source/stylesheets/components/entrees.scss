@@ -5,11 +5,6 @@
   margin: 10px auto;
 }
 
-.main-title h1 {
-  transition: all ease-in-out 500ms;
-  transform: scale(1);
-}
-
 .entrees-e {
   background: $sky-gradient;
   border-radius: 5px;
@@ -19,6 +14,7 @@
   margin: 4px;
   padding: 8px;
   border: 1px black solid;
+  color: black;
 }
 
 .entrees-e:hover {
@@ -51,9 +47,7 @@
   margin-bottom: 0;
   }
 
-.entrees-description p {
-  margin-bottom: 0;
-}
+
 
 /*format tablettes------------------------------------------------*/
 @media screen and (max-width: 991.98px) {
