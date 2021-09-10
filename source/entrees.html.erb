@@ -1,0 +1,25 @@
+<div class="nav-offset-top"></div>
+<div class="main-titlebox-e">
+  <div class="main-title">
+    <h1>NOS ENTREES</h1>
+  </div>
+
+</div>
+<div class="container">
+  <% data.entrees.each do |entree| %>
+  <div class="entrees-e">
+    <div class="entrees-description">
+      <h4><%= entree.name %></h4>
+    </div>
+    <img src="<%= entree.img_link %>" alt="" class='entrees-image rounded'>
+    <div class="entrees-prix">
+      <h4><%= entree.prix %></h4>
+    </div>
+        <ul class="list-inline poshoriz">
+          <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100058083176574" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+  </div>
+<% end %>
+
+</div>

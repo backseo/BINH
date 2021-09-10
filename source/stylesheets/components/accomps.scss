@@ -1,0 +1,70 @@
+.main-titlebox-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(135deg,
+    rgba(0,0,144,0.8) 0%,
+    rgba(0,0,144,0.6) 85%);
+  width: 45%;
+  margin: 10px auto;
+  color: white;
+}
+
+.accomps-p {
+  background: linear-gradient(135deg,
+    rgba(0,0,144,0.8) 0%,
+    rgba(0,0,144,0.7) 85%);
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px;
+  padding: 8px;
+  color: white;
+}
+
+.accomps-p:hover {
+  background: linear-gradient(135deg,
+    rgba(0,0,144,0.9) 0%,
+    rgba(0,0,144,0.9) 85%);
+}
+
+
+.accomps-description {
+  font-family: Montserrat;
+  text-align: left;
+}
+
+.accomps-prix {
+  line-height: 90%;
+  padding: 8px;
+  text-align: center;
+}
+
+.accomps-image {
+  margin: 0px 4px;
+  border-radius: 3px;
+  min-height: 70px;
+  min-width: 80px;
+  max-height:  70px;
+  max-width: 80px;
+  text-align: center;
+}
+
+.accomps-description h3 {
+  margin-bottom: 0;
+  }
+
+.accomps-description p {
+  margin-bottom: 0;
+}
+
+/*format tablettes------------------------------------------------*/
+@media screen and (max-width: 991.98px) {
+
+}
+
+/* Format téléphone ------------------------------------------------*/
+@media screen and (max-width: 767.98px) {
+
+}

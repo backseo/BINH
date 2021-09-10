@@ -1,0 +1,38 @@
+.banner {height: 85vh;
+background: linear-gradient(135deg,
+    rgba(0,0,0,0.8) 0%,
+    rgba(0,0,0,0.3) 50%),
+url("../images/Sadec.jpg");
+background-size: cover;
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+}
+.banner-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(255,255,255,0.9);
+}
+
+.banner-content p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+/*format tablettes------------------------------------------------*/
+@media screen and (max-width: 991.98px) {
+  .banner-content h1 {
+    transform: scale(0.9);
+  }
+}
+
+/* Format téléphone ------------------------------------------------*/
+@media screen and (max-width: 767.98px) {
+  .banner-content h1 {
+    transform: scale(0.8);
+  }
+}

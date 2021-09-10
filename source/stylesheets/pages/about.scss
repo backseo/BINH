@@ -1,0 +1,42 @@
+.about-text {
+  margin: 30px auto;
+  padding: 3rem;
+  border-radius: 4px;
+  box-shadow:  1px 1px 1px 1px black;
+  min-height: 80vh;
+}
+
+.about-text p {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 20px;
+  text-indent: 2rem;
+  &::first-letter {
+    font-size: 130%;
+  }
+}
+
+strong {
+  color: blue;
+  font-weight: bolder;
+}
+
+.title-section {
+  width: 100%;
+  background: rgba(39, 143, 117, 0.7);
+  color: white;
+  box-shadow: 1px 1px 1px 1px gray;
+  text-align: center;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+  .about-text p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: justify;
+  }
+}
+
+

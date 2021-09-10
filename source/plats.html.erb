@@ -1,0 +1,23 @@
+<div class="nav-offset-top"></div>
+<div class="main-titlebox-p">
+  <div class="main-title">
+    <h1>NOS PLATS</h1>
+  </div>
+</div>
+<div class="container">
+  <% data.plats.each do |plat| %>
+  <div class="plats-p">
+    <div class="plats-description">
+      <h4><%= plat.name %></h4>
+    </div>
+    <img src="<%= plat.img_link %>" alt="" class='plats-image rounded'>
+    <div class="plats-prix">
+      <h4><%= plat.prix %></h4>
+    </div>
+        <ul class="list-inline poshoriz">
+          <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100058083176574" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+  </div>
+<% end %>
+</div>

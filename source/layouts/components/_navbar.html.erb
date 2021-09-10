@@ -1,7 +1,7 @@
 <div class="navbar-name">
   <!-- Logo -->
   <a href="https://backseo.github.io/#" class="navbar-name-brand">
-  <%= image_tag "name.png", alt: "Logo_name", title: "Accueil" %>
+  <%= image_tag "Logo.png", alt: "Chez Binh!", title: "Accueil" %>
   </a>
   <%= partial 'layouts/components/tab' %>
   <!-- Right Navigation -->
@@ -9,7 +9,7 @@
     <!-- Profile picture with dropdown list -->
     <div class="navbar-name-item">
       <div class="dropdown">
-        <img src="images/lewagon2.gif" class="avatar dropdown-toggle hidden-sm hidden-xs" id="navbar-name-menu" data-toggle="dropdown" title="title'">
+        <img src="images/Logo.png" class="avatar dropdown-toggle hidden-sm hidden-xs" id="navbar-name-menu" data-toggle="dropdown" title="title'">
         <ul class="dropdown-menu dropdown-menu-right navbar-name-dropdown-menu">
           <li><a href="#.html" target="_blank">Infos</a></li>
         </ul>
@@ -23,16 +23,13 @@
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-name-dropdown-menu">
         <li id="nfi1">Naviguer vers :</li>
-        <li><a href="#.html">Section</a></li>
-        <li><a href="#.html">Section</a></li>
-        <li><a href="#.html">Section</a></li>
-        <li><a href="#.html">Section</a></li>
-        <li><a href="#.html">Section</a></li>
-        <li><a href="#.html">Section</a></li>
-        <li><a href="#.html">Section</a></li>
-        <li><a href="#.html">Section</a></li>
+        <li><a href="entrees.html">Nos entrées</a></li>
+        <li><a href="plats.html">Nos plats</a></li>
+        <li><a href="accomps.html">Accompagnements</a></li>
+        <li><a href="desserts.html">Desserts</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100058083176574" target="_blank">Actualité (Facebook)</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">A propos</a></li>
+        <li><%= link_to 'A propos', '#1' %></li>
       </ul>
     </div>
   </div>
