@@ -2,31 +2,27 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(135deg,
-    rgba(144,0,0,0.8) 0%,
-    rgba(144,0,0,0.6) 85%);
-  width: 45%;
+  background: $red-gradient;
+  width: 25%;
   margin: 10px auto;
-  color: orange;
+  color: white;
+  border-radius: 4px;
 }
 
 .plats-p {
-  background: linear-gradient(135deg,
-    rgba(144,0,0,0.8) 0%,
-    rgba(144,0,0,0.7) 85%);
+  background: $gray-gradient;
   border-radius: 5px 5px 5px 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 4px;
   padding: 8px;
-  color: orange;
+  color: black;
 }
 
 .plats-p:hover {
-  background: linear-gradient(135deg,
-    rgba(144,0,0,0.9) 0%,
-    rgba(144,0,0,0.9) 85%);
+  background: $red-gradient;
+  color: white;
 }
 
 
@@ -66,5 +62,7 @@
 
 /* Format téléphone ------------------------------------------------*/
 @media screen and (max-width: 767.98px) {
-
+  .main-titlebox-p {
+    width: 30%;
+  }
 }

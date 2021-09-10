@@ -35,3 +35,23 @@ $menu-gradient: linear-gradient(180deg,
     rgba($white, 0.8) 0%,
     rgba($purple, 0.9) 20%,
     rgba($orange, 1) 80%);
+
+$yellow-gradient: linear-gradient(135deg,
+    rgba(255,144,14,1) 0%,
+    rgba(255,144,14,0.6) 85%);
+
+$green-gradient: linear-gradient(135deg,
+    rgba(0,144,0,1) 0%,
+    rgba(0,144,0,0.6) 85%);
+
+$red-gradient: linear-gradient(135deg,
+    rgba(255,0,0,1) 0%,
+    rgba(255,22,22,0.6) 85%);
+
+$blue-gradient: linear-gradient(135deg,
+    rgba(0,0,144,1) 0%,
+    rgba(0,0,144,0.6) 85%);
+
+$purple-gradient: linear-gradient(135deg,
+    rgba(122,0,144,1) 0%,
+    rgba(122,0,144,0.6) 85%);
