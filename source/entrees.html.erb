@@ -5,10 +5,10 @@
 <div class="container">
   <% data.entrees.each do |entree| %>
     <div class="entrees-e">
+      <img src="<%= entree.img_link %>" alt="" class='entrees-image rounded'>
       <div class="entrees-description">
         <h4><%= entree.name %></h4>
       </div>
-      <img src="<%= entree.img_link %>" alt="" class='entrees-image rounded'>
       <div class="entrees-prix">
         <h4><%= entree.prix %></h4>
       </div>

@@ -11,10 +11,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 4px;
+  margin: 0 auto;
   padding: 8px;
   border: 1px black solid;
   color: black;
+  max-width: 800px;
 }
 
 .entrees-e:hover {
@@ -24,7 +25,7 @@
 
 .entrees-description {
   font-family: Montserrat;
-  text-align: left;
+  text-align: center;
 }
 
 .entrees-prix {
@@ -45,23 +46,20 @@
 
 .entrees-description h4 {
   margin-bottom: 0;
-  }
+}
 
 
 
 /*format tablettes------------------------------------------------*/
 @media screen and (max-width: 991.98px) {
-
+  .main-titlebox-e img{
+    transform: scale(0.9);
+  }
 }
 
 /* Format téléphone ------------------------------------------------*/
 @media screen and (max-width: 767.98px) {
-  .main-titlebox-e {
-    width: 50%;
-  }
-
-  .main-title h1 {
-    transition: all ease-in-out 500ms;
-    transform: scale(0.7);
+  .main-titlebox-e img{
+    transform: scale(0.8);
   }
 }

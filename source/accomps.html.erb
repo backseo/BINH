@@ -5,10 +5,10 @@
 <div class="container">
   <% data.accomps.each do |accomp| %>
   <div class="accomps-p">
+    <img src="<%= accomp.img_link %>" alt="" class='accomps-image rounded'>
     <div class="accomps-description">
       <h4><%= accomp.name %></h4>
     </div>
-    <img src="<%= accomp.img_link %>" alt="" class='accomps-image rounded'>
     <div class="accomps-prix">
       <h4><%= accomp.prix %></h4>
     </div>

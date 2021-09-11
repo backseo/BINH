@@ -29,6 +29,7 @@
 strong {
   color: blue;
   font-weight: bolder;
+  font-size: 105%;
 }
 
 .title-section {
@@ -41,12 +42,18 @@ strong {
   margin-bottom: 40px;
 }
 
-@media only screen and (max-width: 700px) {
+
+/*format tablettes------------------------------------------------*/
+@media screen and (max-width: 991.98px) {
+
+}
+
+/* Format téléphone ------------------------------------------------*/
+@media screen and (max-width: 767.98px) {
   .about-text p {
     font-size: 1.5rem;
     font-weight: bolder;
     text-align: justify;
+    margin: 0px 30px;
   }
 }
-
-

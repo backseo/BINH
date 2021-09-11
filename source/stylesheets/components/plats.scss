@@ -7,14 +7,15 @@
 
 .plats-p {
   background: $sky-gradient;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 4px;
+  margin: 0 auto;
   padding: 8px;
-  color: black;
   border: 1px black solid;
+  color: black;
+  max-width: 800px;
 }
 
 .plats-p:hover {
@@ -25,7 +26,7 @@
 
 .plats-description {
   font-family: Montserrat;
-  text-align: left;
+  text-align: center;
 }
 
 .plats-prix {
@@ -54,12 +55,14 @@
 
 /*format tablettes------------------------------------------------*/
 @media screen and (max-width: 991.98px) {
-
+  .main-titlebox-p img{
+    transform: scale(0.9);
+  }
 }
 
 /* Format téléphone ------------------------------------------------*/
 @media screen and (max-width: 767.98px) {
-  .main-titlebox-p {
-    width: 30%;
+  .main-titlebox-p img{
+    transform: scale(0.8);
   }
 }
