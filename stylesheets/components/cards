@@ -19,12 +19,36 @@
   border-radius: 15px;
   overflow: hidden; }
 
-.cards-container {
+.cards-container1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 1rem;
   flex-wrap: wrap; }
+
+.cards-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+  flex-wrap: wrap; }
+
+.binhinfo {
+  background: gray;
+  width: 330px;
+  height: 230px;
+  border-radius: 5px;
+  border: 1px black solid;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 200ms;
+  margin: 10px;
+  text-align: center;
+  color: black; }
+
+.binhinfo img {
+  width: 90px;
+  height: auto;
+  margin-top: 8px; }
 
 .cards {
   position: relative;
@@ -33,7 +57,6 @@
   padding: 10px;
   border-radius: 5px;
   margin-top: 40px;
-  margin: 10px auto;
   border: 1px black solid;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
   transition: all ease-in-out 200ms; }
