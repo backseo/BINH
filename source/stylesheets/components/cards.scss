@@ -37,7 +37,9 @@
 }
 
 .binhinfo {
-  background: gray;
+  background: linear-gradient(135deg,
+    rgba(128,128,128,0.8) 0%,
+    rgba(128,128,128,0.8) 85%);
   width: 330px;
   height: 230px;
   border-radius: 5px;
@@ -48,6 +50,8 @@
   text-align: center;
   color: black;
 }
+
+
 
 .binhinfo img {
   width: 90px;
@@ -100,31 +104,31 @@
 
 .n1 {
   background: linear-gradient(135deg,
-    rgba(0,144,0,1) 0%,
+    rgba(0,144,0,0.5) 0%,
     rgba(0,144,0,1) 85%);
 }
 
 .n2 {
   background: linear-gradient(135deg,
-    rgba(255,144,14,1) 0%,
+    rgba(255,144,14,0.5) 0%,
     rgba(255,144,14,1) 85%);
 }
 
 .n3 {
   background: linear-gradient(135deg,
-    rgba(144,0,0,1) 0%,
+    rgba(144,0,0,0.5) 0%,
     rgba(144,0,0,1) 85%);
 }
 
 .n4 {
   background: linear-gradient(135deg,
-    rgba(0,0,144,1) 0%,
+    rgba(0,0,144,0.5) 0%,
     rgba(0,0,144,1) 85%);
 }
 
 .n5 {
   background: linear-gradient(135deg,
-    rgba(122,0,144,1) 0%,
+    rgba(122,0,144,0.5) 0%,
     rgba(122,0,144,1) 85%);
 }
 

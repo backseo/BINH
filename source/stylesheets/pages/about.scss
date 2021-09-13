@@ -2,7 +2,6 @@
   margin: 30px auto;
   padding: 3rem;
   border-radius: 4px;
-  box-shadow:  1px 1px 1px 1px black;
   min-height: 80vh;
 }
 
@@ -17,7 +16,8 @@
 }
 
 .bg-box-about {
-  background: rgba(255, 255, 255, 1);
+   background-image: url("../images/bg-4.jpg");
+  background-size: contain;
   width: 90%;
   padding: 45px 0px;
   margin: 0 auto;
@@ -27,7 +27,6 @@
 }
 
 strong {
-  color: blue;
   font-weight: bolder;
   font-size: 105%;
 }
