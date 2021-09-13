@@ -34,7 +34,7 @@
   flex-wrap: wrap; }
 
 .binhinfo {
-  background: gray;
+  background: linear-gradient(135deg, rgba(128, 128, 128, 0.8) 0%, rgba(128, 128, 128, 0.8) 85%);
   width: 330px;
   height: 230px;
   border-radius: 5px;
@@ -90,19 +90,19 @@
   border-radius: 2px; }
 
 .n1 {
-  background: linear-gradient(135deg, #009000 0%, #009000 85%); }
+  background: linear-gradient(135deg, rgba(0, 144, 0, 0.5) 0%, #009000 85%); }
 
 .n2 {
-  background: linear-gradient(135deg, #ff900e 0%, #ff900e 85%); }
+  background: linear-gradient(135deg, rgba(255, 144, 14, 0.5) 0%, #ff900e 85%); }
 
 .n3 {
-  background: linear-gradient(135deg, #900000 0%, #900000 85%); }
+  background: linear-gradient(135deg, rgba(144, 0, 0, 0.5) 0%, #900000 85%); }
 
 .n4 {
-  background: linear-gradient(135deg, #000090 0%, #000090 85%); }
+  background: linear-gradient(135deg, rgba(0, 0, 144, 0.5) 0%, #000090 85%); }
 
 .n5 {
-  background: linear-gradient(135deg, #7a0090 0%, #7a0090 85%); }
+  background: linear-gradient(135deg, rgba(122, 0, 144, 0.5) 0%, #7a0090 85%); }
 
 /*format tablettes------------------------------------------------*/
 @media screen and (max-width: 991.98px) {
