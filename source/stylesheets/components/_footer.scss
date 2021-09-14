@@ -1,39 +1,50 @@
-.foot-up {
-  height: 167px;
+.footer-cadre {
+  position: relative;
+  margin: 4px auto;
+  background: black;
+  padding: 4px 0px;
   width: 100%;
-}
-
-.myfooter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 50px;
-  background-color: black;
-}
-
-.list-menu {
   color: white;
-  margin: 8px 2px 8px 2px;
 }
 
-.list-menu ul li {
+.footitle {
+  text-align: center;
+}
+
+.footer-cadre ul {
+  margin: 0 auto;
+}
+
+.footer-cadre ul li {
   list-style: none;
-  text-align: left;
 }
 
-.list-menu a {
+.footer-cadre ul li a {
   color: white;
-  opacity: 0.5;
-  padding: 0px 10px;
+  font-size: 1.2rem;
 }
-.list-menu a:hover {
-  color: blue;
-  opacity: 1;
+
+.footer-cadre ul li a:hover {
+  color: #da552f;
+  cursor: pointer;
+  transition: all ease-in-out 100ms;
+}
+
+.gafa-icon {
+  height: 20px;
+}
+.gafa-icon:hover {
+  transform: scale(1.2);
 }
 
 .centree {
-  margin: 0 auto;
+  text-align: center;
+  border: 2px white solid;
+  margin: 4px;
+  border-radius: 2px;
+  padding-bottom: 4px;
 }
+
 
 /*format tablettes------------------------------------------------*/
 @media screen and (max-width: 991.98px) {
