@@ -54,7 +54,7 @@ url("../images/bg-4.jpg");
 .emporter {
   font-size: 1rem;
   text-align: center;
-  min-width: 100px;
+  min-width: 84px;
 }
 
 /*format tablettes------------------------------------------------*/
@@ -68,5 +68,8 @@ url("../images/bg-4.jpg");
 @media screen and (max-width: 767.98px) {
   .main-titlebox-e img{
     transform: scale(0.8);
+  }
+  .entrees-description h4 {
+    font-size: 1.5rem;
   }
 }

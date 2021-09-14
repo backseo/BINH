@@ -5,7 +5,7 @@
 - name: 'Salade crudités crevettes'
   prix: '6,50€'
   img_link: 'images/Salade_crudités_crevettes.jpg'
-  emporter: "Sur place"
+  emporter: "Sur place/A emporter"
 - name: '4 Samoussas servis avec leur petite salade '
   prix: '5,90€'
   img_link: 'images/samoussas.jpg'
