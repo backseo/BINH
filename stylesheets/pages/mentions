@@ -1,0 +1,6 @@
+.mentions {
+  background: white;
+  color: black;
+  border-radius: 4px;
+  margin: 10px auto;
+  color: rgba(0, 0, 0, 0.3); }
