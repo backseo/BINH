@@ -51,7 +51,11 @@ url("../images/bg-4.jpg");
   margin-bottom: 0;
 }
 
-
+.emporter {
+  font-size: 1rem;
+  text-align: center;
+  min-width: 100px;
+}
 
 /*format tablettes------------------------------------------------*/
 @media screen and (max-width: 991.98px) {

@@ -1,27 +1,40 @@
 - name: 'Banane à la crème de coco'
   prix: '5,90€'
   img_link: 'images/bana_coco.jpeg'
+  emporter: "Sur place/A emporter"
 - name: 'Banane en beignet, flambée à l alcool de riz'
   prix: '6,90€'
   img_link: 'images/bana_flamb.jpeg'
+  emporter: "Sur place"
 - name: 'Dame blanche (glace vanille, chocolat chaud, chantilly)'
   prix: '4,90€'
   img_link: 'images/dame_blanche2.jpeg'
+  emporter: "Sur place"
 - name: 'Glace rhum raisin servi avec son rhum arrangé'
   prix: '5,90€'
   img_link: 'images/gla_rhum_rais.jpeg'
+  emporter: "Sur place/A emporter"
 - name: 'Glace ou sorbet (2 boules avec chantilly)'
   prix: '4,00€'
   img_link: 'images/coupe-glace-2-boule.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Banane grillée à la canelle servie avec chocolat et chantilly'
   prix: '5,90€'
   img_link: 'images/bana_choco_chant.jpeg'
+  emporter: "Sur place/A emporter"
 - name: 'Tarte aux pommes et sa glace vanille'
   prix: '5,90€'
   img_link: 'images/tarte_pom_van.jpeg'
+  emporter: "Sur place/A emporter"
 - name: 'Fruits de saison au rhum raisin'
   prix: '5,90€'
   img_link: 'images/fruits_rhum.jpeg'
+  emporter: "Sur place/A emporter"
 - name: 'Samouraï (sorbet citron + alcool de riz)'
   prix: '7,00€'
   img_link: 'images/samourai.jpeg'
+  emporter: "Sur place"
+- name: 'Nougats'
+  prix: '4,00'
+  img_link: 'images/nougats.jpeg'
+  emporter: "Sur place/A emporter"

@@ -1,39 +1,61 @@
+- name: 'Hu Tieu Mi (pâtes de riz et nouilles) crevettes calamars et porc laqué'
+  prix: '15,90€'
+  img_link: 'images/heu_tiu_mi.jpg'
+  emporter: "Sur place/A emporter"
+- name: 'Duo de viande blanche (poulet et porc) au curry vert et lait de coco'
+  prix: '12,90€'
+  img_link: 'images/duo_vian_blan.jpeg'
+  emporter: "Sur place/A emporter"
 - name: 'Echine de porc caramel servie avec du riz parfumé'
   prix: '11,00€'
   img_link: 'images/ech_porc_cara.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Emincé de poulet au curry vert et jus de coco'
   prix: '11,00€'
   img_link: 'images/poulet_curry_coco.jpeg'
+  emporter: "Sur place/A emporter"
 - name: 'Boeuf basilic ou citronelle sur plaque chauffante'
   prix: '13,90€'
   img_link: 'images/boeuf_bas.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Duo crevettes-calamars aux épices, légumes croquants, riz parfumé'
   prix: '14,90€'
   img_link: 'images/duo_crev_calam.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Mixao (nouilles de blé croquantes sauce sésame, boeuf, crevettes et calamars)'
   prix: '15,90€'
   img_link: 'images/mixao.jpeg'
+  emporter: "Sur place/A emporter"
 - name: 'Pâtes de riz façon SADEC (pâtes de riz marinées au poivre, soja, porc en lamelles, crevettes décortiquées et calamars)'
   prix: '13,90€'
   img_link: 'images/hu_tieu_kho.jpg'
-- name: 'Pavé de cabillaud aux 5 épices, riz parfumé'
+  emporter: "Sur place/A emporter"
+- name: 'Dos de cabillaud aux 5 épices, riz parfumé'
   prix: '14,90€'
   img_link: 'images/cabill_riz.jpeg'
+  emporter: "Sur place/A emporter"
 - name: 'Bo Bun (vermicelles de riz au boeuf + nems)'
   prix: '11,00€'
   img_link: 'images/bo_bun.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Encornets à la plancha sur plaque (servi avec légumes et riz parfumé)'
   prix: '11,90€'
   img_link: 'images/Encornet_plancha.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Nouilles sautées au boeuf, crevettes, calamars, légumes'
   prix: '15,90€'
   img_link: 'images/nouilles_boeuf_crev_cal.jpg'
-- name: 'Canard laqué au gingembre'
+  emporter: "Sur place/A emporter"
+- name: 'Canard laqué au gingembre ou 5 épices (piquant)'
   prix: '12,90€'
   img_link: 'images/can_laq.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Bo Bun SADEC (vermicelles de riz, boeuf, porc à la citronelle, jus de coco, nems)'
   prix: '12,90€'
   img_link: 'images/bo_bun_sadec.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Pièce du boucher'
   prix: '12,90€'
   img_link: 'images/piece_boucher.jpg'
+  emporter: "Sur place/A emporter"
+

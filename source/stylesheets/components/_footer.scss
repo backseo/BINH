@@ -11,23 +11,18 @@
   text-align: center;
 }
 
-.footer-cadre ul {
+.footer-cadre p {
   margin: 0 auto;
 }
 
-.footer-cadre ul li {
-  list-style: none;
-}
-
-.footer-cadre ul li a {
+.footer-cadre p a {
   color: white;
   font-size: 1.2rem;
 }
 
-.footer-cadre ul li a:hover {
+.footer-cadre p a:hover {
   color: #da552f;
   cursor: pointer;
-  transition: all ease-in-out 100ms;
 }
 
 .gafa-icon {

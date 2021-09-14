@@ -1,30 +1,40 @@
 - name: 'Nems (3 pièces)'
   prix: '4,00€'
   img_link: 'images/Nems3.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Salade crudités crevettes'
   prix: '6,50€'
   img_link: 'images/Salade_crudités_crevettes.jpg'
-- name: 'Samoussas servis avec sa petite salade '
+  emporter: "Sur place"
+- name: '4 Samoussas servis avec leur petite salade '
   prix: '5,90€'
   img_link: 'images/samoussas.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Soupe de raviolis à la viande'
   prix: '6,90€'
   img_link: 'images/soupe_raviolis.jpg'
+  emporter: "Sur place"
 - name: 'Rouleaux de printemps'
   prix: '5,50€'
   img_link: 'images/roul_printemps.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Assiette composée (nem, samoussa, beignet de raviolis, salade poulet)'
   prix: '8,90€'
   img_link: 'images/nem_sam_bei_rav_sal_pou.jpg'
-- name: 'Beignets de raviolis servi avec sa petite salade'
+  emporter: "Sur place/A emporter"
+- name: 'Beignets de raviolis servi avec leur petite salade'
   prix: '5,90€'
   img_link: 'images/beignet-de-raviolis.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Duo(2 pièces de nem + 1 rouleau de printemps)'
   prix: '6,50€'
   img_link: 'images/nem_roul_print.png'
+  emporter: "Sur place/A emporter"
 - name: 'Salade crudités poulet mariné au poivre vert'
   prix: '5,50€'
   img_link: 'images/Sal_crud_Poulet.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Assortiment HACAO + XUI MAI avec sa sauce'
   prix: '5,90€ '
   img_link: 'images/hacao_xui_mai.jpeg'
+  emporter: "Sur place/A emporter"

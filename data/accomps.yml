@@ -1,15 +1,20 @@
 - name: 'Riz cantonnais'
   prix: '4,00€'
   img_link: 'images/riz-cantonais.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Nouilles sautées natures'
   prix: '3,00€'
   img_link: 'images/nou_saut_nat.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Nouilles sautées aux légumes'
   prix: '5,90€'
   img_link: 'images/nouilles_saut_leg.jpg'
+  emporter: "Sur place/A emporter"
 - name: 'Riz nature'
   prix: '1,90€'
   img_link: 'images/riz_nat.jpeg'
+  emporter: "Sur place/A emporter"
 - name: 'Frites'
   prix: '2,90€ '
   img_link: 'images/frites.jpeg'
+  emporter: "Sur place/A emporter"
