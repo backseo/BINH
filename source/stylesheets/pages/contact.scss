@@ -16,7 +16,7 @@ url("../images/bg-4.jpg");
   position: relative;
   text-align: center;
   color: black;
-  width: 70%;
+  width: 90%;
   margin: 20px auto;
   padding: 20px;
   border-radius: 2px;
@@ -25,6 +25,9 @@ url("../images/bg-4.jpg");
   box-shadow: 1px 1px 3px 1px black;
 }
 
+.action h1 {
+  white-space: nowrap;
+}
 
 
 .stylised {
@@ -66,15 +69,14 @@ url("../images/bg-4.jpg");
 
 /*format tablettes------------------------------------------------*/
 @media screen and (max-width: 991.98px) {
-  .action h2 {
+  .action h1 {
     transform: scale(0.8);
   }
 }
 
 /* Format téléphone ------------------------------------------------*/
 @media screen and (max-width: 767.98px) {
-  .action h2 {
-    transform: scale(0.6);
-    white-space:nowrap;
+  .action h1 {
+    transform: scale(0.7);
   }
 }
