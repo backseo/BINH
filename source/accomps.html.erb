@@ -5,7 +5,7 @@
 <div class="container">
   <% data.accomps.each do |accomp| %>
   <div class="accomps-p">
-    <img src="<%= accomp.img_link %>" alt="" class='accomps-image rounded'>
+    <a href="<%= accomp.img_link %>" data-lightbox="photo" data-title="<%= accomp.name %>"><img src="<%= accomp.img_link %>" alt="" class='accomps-image rounded'></a>
     <div class="accomps-description">
       <h4><%= accomp.name %></h4>
     </div>

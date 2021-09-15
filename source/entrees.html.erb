@@ -5,7 +5,7 @@
 <div class="container">
   <% data.entrees.each do |entree| %>
     <div class="entrees-e">
-      <img src="<%= entree.img_link %>" alt="" class='entrees-image rounded'>
+     <a href="<%= entree.img_link %>" data-lightbox="photo" data-title="<%= entree.name %>"><img src="<%= entree.img_link %>" alt="image" class='entrees-image rounded'></a>
       <div class="entrees-description">
         <h4><%= entree.name %></h4>
       </div>

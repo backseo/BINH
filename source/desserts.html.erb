@@ -5,7 +5,7 @@
 <div class="container">
   <% data.desserts.each do |dessert| %>
   <div class="desserts-p">
-    <img src="<%= dessert.img_link %>" alt="" class='desserts-image rounded'>
+    <a href="<%= dessert.img_link %>" data-lightbox="photo" data-title="<%= dessert.name %>"><img src="<%= dessert.img_link %>" alt="" class='desserts-image rounded'></a>
     <div class="desserts-description">
       <h4><%= dessert.name %></h4>
     </div>

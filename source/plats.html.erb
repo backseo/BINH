@@ -10,14 +10,14 @@
 <div class="container">
   <% data.plats.each do |plat| %>
   <div class="plats-p">
-    <img src="<%= plat.img_link %>" alt="" class='plats-image rounded'>
+    <a href="<%= plat.img_link %>" data-lightbox="photo" data-title="<%= plat.name %>"><img src="<%= plat.img_link %>" alt="image" class='plats-image rounded'></a>
     <div class="plats-description">
       <h4><%= plat.name %></h4>
     </div>
     <div class="emporter">
       <%= plat.emporter %>
     </div>
-    <div class="plats-prix">
+    <div>
       <h4><%= plat.prix %></h4>
     </div>
   </div>
