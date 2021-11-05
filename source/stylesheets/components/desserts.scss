@@ -58,10 +58,6 @@ url("../images/bg-4.jpg");
 
 /*format tablettes------------------------------------------------*/
 @media screen and (max-width: 991.98px) {
-  .desserts-p {
-    flex-wrap: wrap;
-  }
-
   .main-titlebox-d img{
     transform: scale(0.9);
   }
@@ -69,9 +65,6 @@ url("../images/bg-4.jpg");
 
 /* Format téléphone ------------------------------------------------*/
 @media screen and (max-width: 767.98px) {
-  .desserts-p {
-    flex-wrap: wrap;
-  }
 
   .main-titlebox-d img{
     transform: scale(0.8);
