@@ -66,6 +66,9 @@ url("../images/bg-4.jpg");
 
 /* Format téléphone ------------------------------------------------*/
 @media screen and (max-width: 767.98px) {
+  .entrees-e {
+    flex-wrap: wrap;
+  }
   .main-titlebox-e img{
     transform: scale(0.8);
   }
